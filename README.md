@@ -2,7 +2,7 @@
 
 # SHIFT
 
-### Semantic Harmonization via Index-side Feature Transformation for Multilingual Information Retrieval
+### SHIFT: Semantic Harmonization via Index-side Feature Transformation for Multilingual Information Retrieval
 
 [![EMNLP 2026](https://img.shields.io/badge/EMNLP%202026-Findings-8A2BE2.svg)](https://2026.emnlp.org/)
 [![arXiv](https://img.shields.io/badge/arXiv-2606.18801-b31b1b.svg)](https://arxiv.org/abs/2606.18801)
