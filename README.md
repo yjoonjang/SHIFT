@@ -14,8 +14,6 @@
 
 <b>Official implementation of the <a href="https://2026.emnlp.org/">Findings of EMNLP 2026</a> paper.</b>
 
-<em>A training-free, index-side fix for language bias in multilingual dense retrieval — subtract each language's offset once at indexing, add zero latency at query time.</em>
-
 <b><a href="https://arxiv.org/abs/2606.18801">📄 Paper</a> · <a href="#overview">✨ Overview</a> · <a href="#installation">⚙️ Installation</a> · <a href="#data-preparation">📦 Data</a> · <a href="#usage">🚀 Usage</a> · <a href="#citation">📌 Citation</a></b>
 
 </div>
