@@ -1,6 +1,32 @@
-# SHIFT: Semantic Harmonization via Index-side Feature Transformation
+<div align="center">
 
-Official implementation of **"SHIFT: Semantic Harmonization via Index-side Feature Transformation for Multilingual Information Retrieval"** (EMNLP 2026, Findings).
+# 🧭 SHIFT
+
+### Semantic Harmonization via Index-side Feature Transformation for Multilingual Information Retrieval
+
+[![EMNLP 2026](https://img.shields.io/badge/EMNLP%202026-Findings-8A2BE2.svg)](https://2026.emnlp.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.18801-b31b1b.svg)](https://arxiv.org/abs/2606.18801)
+[![License: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![Dataset](https://img.shields.io/badge/🤗%20HuggingFace-Benchmarks-yellow.svg)](https://huggingface.co/datasets/yjoonjang/mlir-benchmarks)
+[![Stars](https://img.shields.io/github/stars/yjoonjang/SHIFT?style=social)](https://github.com/yjoonjang/SHIFT/stargazers)
+
+<b>Official implementation of the <a href="https://2026.emnlp.org/">Findings of EMNLP 2026</a> paper.</b>
+
+<em>A training-free, index-side fix for language bias in multilingual dense retrieval — subtract each language's offset once at indexing, add zero latency at query time.</em>
+
+<b><a href="https://arxiv.org/abs/2606.18801">📄 Paper</a> · <a href="#overview">✨ Overview</a> · <a href="#installation">⚙️ Installation</a> · <a href="#data-preparation">📦 Data</a> · <a href="#usage">🚀 Usage</a> · <a href="#citation">📌 Citation</a></b>
+
+</div>
+
+---
+
+## News
+
+- **2026-08** · Accepted to **Findings of EMNLP 2026**. Code, pre-computed language vectors, and the [MLIR benchmarks](https://huggingface.co/datasets/yjoonjang/mlir-benchmarks) are public.
+- **2026-06** · Paper released on [arXiv](https://arxiv.org/abs/2606.18801).
+
+## Overview
 
 Multilingual dense retrievers exhibit strong **language bias**: given a query, documents in the query's language dominate the top ranks even when equally relevant documents exist in other languages. SHIFT is a **training-free, index-side** correction:
 
@@ -110,7 +136,8 @@ uv run python scripts/evaluate_neuclir.py --model intfloat/multilingual-e5-large
   title     = {{SHIFT}: Semantic Harmonization via Index-side Feature Transformation for Multilingual Information Retrieval},
   author    = {Jang, Youngjoon and Hong, Seongtae and Moon, Hyeonseok and Lim, Heuiseok},
   booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},
-  year      = {2026}
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2606.18801}
 }
 ```
 
