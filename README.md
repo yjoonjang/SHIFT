@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧭 SHIFT
+# SHIFT
 
 ### Semantic Harmonization via Index-side Feature Transformation for Multilingual Information Retrieval
 
@@ -9,7 +9,8 @@
 [![License: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![Dataset](https://img.shields.io/badge/🤗%20HuggingFace-Benchmarks-yellow.svg)](https://huggingface.co/datasets/yjoonjang/mlir-benchmarks)
-[![Stars](https://img.shields.io/github/stars/yjoonjang/SHIFT?style=social)](https://github.com/yjoonjang/SHIFT/stargazers)
+
+<img src="assets/shift.png" width="88%" alt="SHIFT problem definition" />
 
 <b>Official implementation of the <a href="https://2026.emnlp.org/">Findings of EMNLP 2026</a> paper.</b>
 
